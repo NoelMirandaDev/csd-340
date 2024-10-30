@@ -1,1 +1,41 @@
+/*
+Name: Noel Miranda
+Assignment: Module 3.2 Assignment (GitHub Pages)
+*/
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #F8F8F8;
+    color: #333333;
+}
+h1, h2, h3, h4 {
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+h1, h2 {
+    background-color: #333333;
+    color: #F8F8F8; 
+}
+h3, h4 {
+    background-color: #D3D3D3;
+    color: #333333;
+}
+a {
+    color: #00BFFF;
+    text-decoration: none;
+}
+a:visited {
+    color: #333333;
+}
+a:hover {
+    color:#D6A800;
+    text-decoration: underline; 
+}
+a:active {
+    color: #800080;
+}
 
