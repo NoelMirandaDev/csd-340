@@ -1,0 +1,65 @@
+/*CSS for Miranda_Mod3_3.html*/
+h1 {
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+}
+.divs {
+    width: 45%;
+    padding: 1%; /*Additional padding for cleaner look*/
+}
+.divs-left {
+    border: 1px solid red;
+    border-radius: 15px;
+    float: left;
+    /* 
+    Other option to achieve layout
+    display: inline-block;
+    */
+}
+.divs-right {
+    border: 1px dashed red;
+    border-radius: 15px;
+    float:right;
+    /* 
+    Other option to achieve layout
+    display: inline-block;
+    vertical-align: top;
+    */
+}
+#last-div {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    float:right;
+    text-align: right;
+ }
+ol, ul {
+    font-weight: 300;
+}
+ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+ul {
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(71, 35, 105);
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    background-color: rgb(168, 199, 33);
+}
+
