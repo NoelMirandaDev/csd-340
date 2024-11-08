@@ -20,7 +20,7 @@ h1 {
     grid-column-end: 4;
 }
 .grid-item {
-    border: 1px, solid, black;
+    border: 1px solid black;
 }
 h3 {
     text-align: center;
@@ -29,7 +29,9 @@ figure {
     text-align: center;
 }
 img {
-    border: 1px, solid, black; /* Additional border for cleaner look */
+    border: 1px solid black; /* Additional border for cleaner look */
+    height: 210px; /* Fixed height and width for images */
+    width: 140px; /* Fixed height and width for images */
 }
 figcaption {
     font-style: italic;
