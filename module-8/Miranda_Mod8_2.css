@@ -1,0 +1,131 @@
+/* CSS for Miranda_Mod8_2.html */
+
+body { /* Resets browser default values */
+    width: 100%;
+    margin: 0;
+}
+header {
+    background-color: #1A2A47; /* navy blue */
+    color: #FFFFFF; /* white color */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {    
+    font-weight: 400;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #1A2A47; /* navy blue */
+    border-bottom: 15px solid #FFB400; /* gold yellow */
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF; /* white color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #3A5A80; /* light navy blue */
+    color: #FFB400; /* gold yellow */
+    text-decoration: underline; /* added this for accessibility reasons */
+    font-weight: 700; /* added this for accessibility reasons */
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+/* Copied Rule from Module 6.2 Assignment */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+/* Copied Rule from Module 6.2 Assignment */
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    font-weight: 400;
+}
+
+/* Copied Rule from Module 6.2 Assignment */
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ol a:hover {
+    color: black; /* Additional edits */
+    font-weight: 700; /* Additional edits */
+    background-color: #FFB400; /* Additional edits */
+}
+
+footer {
+    background-color: #1A2A47; /* navy blue */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#copyright {
+    float: left; /* Additional property to match browser output example */
+    width: 100%; /* Additional property to match browser output example */
+    margin: 4px; /* Additional property to match browser output example */
+}
+
+footer p {
+    color: #FFFFFF; /* white color */
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    margin: 4px; /* Additional property to match browser output example */
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF; /* white color */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FFB400; /* Additional edits */
+    font-weight: 700; /* added this for accessibility reasons */
+}
+
+/* The new rules for this Assignment starts below this comment */
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 12px; /* Additional property to match browser output example */
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px; /* Additional property to match browser output example */
+    text-align: left;
+    background-color: #1A2A47;
+    color: #FFFFFF;
+    border: 1px solid #ddd;
+}
+
+#movies td {
+    border: 1px solid #ddd;
+    padding:  8px;
+}
