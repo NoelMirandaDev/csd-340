@@ -1,0 +1,46 @@
+/*CSS for Miranda_Mod9_3.html*/
+html, body {
+    font-size: 16px; /*Set the HTML and body font size to 16px*/
+}
+p {
+    font-weight: 400; /*Give the paragraph text a weight of 400*/
+    line-height: 1.4em; /*Give the text in the paragraphs a line-height of 1.4em*/
+}
+h1 {
+    font-weight:700; /*Give the h1 a weight of 700 */
+    text-transform: uppercase; /*Make the h1 uppercase*/
+    text-align: center; /*center the text*/
+}
+h2 {
+    font-weight:500; /*Give the h2 a weight of 500*/
+    text-align: left; /*alignment to the left*/
+    padding-top: 15px; /*top padding of 15px*/
+}
+address {
+    text-align: center; /*text alignment of center*/
+}
+a {
+    color: #4f3674; /*font color of #4F3674*/
+    font-weight: bold; /*make the website URL bold*/
+    font-size: 1.25em; /*font-size of 1.25em*/
+    text-decoration: none; /*removes the link underline*/
+}
+a:visited {
+    color: blue; /*select a styling of your choosing*/
+}
+a:hover {
+    text-decoration: underline; /*apply an underline to the website link on hover*/
+    background-color: #D6A800; /*apply a background color of #D6A800 to the website link on hover*/
+}
+.sentence {
+    font-style: italic; /*font-style of italic to the sentence class*/
+
+}
+.intro {
+    text-indent: 2em; /* “intro” class a text-indent of 2em*/
+}
+
+.button-span {
+    text-align: center;
+}
+
