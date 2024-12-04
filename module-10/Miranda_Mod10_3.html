@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- 
+Name: Noel Miranda
+Assignment: Module 10.3 Assignment (JavaScript Exercise, Part 2)
+-->
+    <head> 
+        <title>CSD 340 Development with HTML and CSS</title>
+        <meta name="description"
+            content="JavaScript Exercise, Part 2" />
+        <meta name="keywords"
+            content="html, css, javascript, bellevue, coding, assignment" />
+        <meta name="robots"
+            content="nofollow" />
+        <meta name="author"
+            content="Noel Miranda" />
+        <link href="Miranda_Mod10_3.css" type="text/css" rel="stylesheet" />
+        <script type="text/javascript" src="Miranda_Mod10_3.js"></script>
+    </head>
+
+    <body>
+
+        <h1 onmouseover="this.style.color='red';" onmouseout="this.style.color='black'">
+            Assignment 10.3: JavaScript - Part 2</h1>
+
+        <h2 onmouseover="this.style.color='purple'" onmouseout="this.style.color='black'">
+            Mystery Boxes</h2>
+
+        <h4 onmouseover="this.style.color='green'" onmouseout="this.style.color='black'">
+            What is under all these boxes?</h4>
+
+        <h4 onmouseover="this.style.color='orange'" onmouseout="this.style.color='black'">
+            Click on them to find out!</h4>
+
+        <div id="all-boxes-container">
+
+                <img id="box1" src="Mystery_Boxes.png" alt="mystery box 1" 
+                onclick="displayDonkey('box1');" onmouseout="displayBoxAgain('box1');"> 
+
+                <img id="box2" src="Mystery_Boxes.png" alt="mystery box 2"
+                onclick="displayMoneyBag('box2');" onmouseout="displayBoxAgain('box2');">
+
+                <img id="box3" src="Mystery_Boxes.png" alt="mystery box 3"
+                onclick="displayDonkey('box3');" onmouseout="displayBoxAgain('box3');">
+
+        </div>
+
+        <div id="last-div">
+            <a href="../index.html">Back to Landing Page</a>
+        </div>
+        
+    </body>
+
+</html>

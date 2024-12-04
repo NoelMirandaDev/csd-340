@@ -1,0 +1,59 @@
+/*CSS for Miranda_Mod10_3.html*/
+
+body {
+    min-width: 250px; /* minimum width to fit content of assignment */
+    padding: 10px;
+}
+
+h1, h2, h4 {
+    width: fit-content; /* reduces width so js color change interacts accordingly */
+    text-align: center; /* center within container */
+    margin: 20px auto; /* center according to body */
+}
+
+#all-boxes-container {
+    display: flex; /* creates flex container and flex items within container */
+    width: 100%;
+    justify-content: center; 
+}
+
+#all-boxes-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* crops image to fit within container*/
+    border: 2px solid black;
+    margin: 0 20px 0;
+}
+
+#box1 {
+    object-position: -6px 0px; /* specified position of image to be displayed */
+}
+
+#box2 {
+    object-position: -360px 0px; /* specified position of image to be displayed */
+}
+
+#box3 {
+    object-position: -720px 0px; /* specified position of image to be displayed */
+}
+
+#last-div {
+    margin-top: 40%; 
+    margin-bottom: 20px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+img:hover {
+    box-shadow: 5px 5px 3px 1px blue; /* helps identify selection */
+    transition: .5s ease-in;
+}
