@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+Name: Noel Miranda
+Assignment: Module 11.2 Assignment (JavaScript Exercise, Part 3)
+-->
+    <head>
+        <title>CSD 340 Development with HTML and CSS</title>
+        <meta name="description"
+            content="JavaScript Exercise, Part 3">
+        <meta name="keywords"
+            content="html, css, javascript, bellevue, coding, assignment">
+        <meta name="robots"
+            content="nofollow">
+        <meta name="author"
+            content="Noel Miranda">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <link href="Miranda_Mod11_2.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="Miranda_Mod11_2.js" defer></script>
+    </head>
+
+    <body>
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+
+        <h2>Interactive To Do List</h2>
+        
+        <h4>Instructions & Things to Know for This To Do List</h4>
+
+        <ul>
+            <li>Type in your items in the first text box.</li>
+            <li>Click the add button to add your items to the virtual list.</li>
+            <li>Click the Display button to see current items in the list.</li>
+            <li>Click on the Delete Last Entry if you would like to remove the last entry.</li>
+            <li>You can also delete items by typing in the item's number into the second text box.</li>
+            <li>For convenience, when deleting items, items are automatically updated in the display.</li>
+        </ul>
+        <hr>
+
+        <div id="required-code">
+            <label for="inputTextField">Add to Your List:</label>
+            <input type="text" id="inputTextField" placeholder="What is on your to do list?">
+                <button type="button" id="addBtn" onclick="addToArray()">Add</button>
+                <button type="button" id="dltBtn" onclick="deleteLastEntry()">Delete Last Entry</button>
+                <button type="button" id="dspBtn" onclick="displayArrayElements()">Display</button>
+        </div>
+
+        <div id="optional-code">
+            <label for="indexInputTextField">Delete Entry by its List Item Number:</label>
+            <input type="text" id="indexInputTextField" placeholder="#">
+            <button type="button" id="secondDltBtn" onclick="deleteByItemNum()">Delete Specific Item</button>
+        </div>
+        <hr>
+
+        <p id="displayContainer"></p> 
+
+    </body>
+
+</html>

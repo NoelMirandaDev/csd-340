@@ -1,0 +1,47 @@
+/*CSS for Miranda_Mod11_2.html*/
+
+body {
+    padding: 20px;
+}
+
+h1 {
+    letter-spacing: .09em;
+}
+
+h4 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    letter-spacing: .5px;
+}
+
+#required-code label {
+    margin-bottom: 3px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+#inputTextField {
+width: 30ch;
+}
+
+#indexInputTextField {
+width: 4ch;
+}
+
+div {
+    margin-bottom: 20px
+}
+
+button {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+    
