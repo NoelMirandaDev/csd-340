@@ -44,4 +44,21 @@ button {
     margin-left: 1px;
     margin-right: 1px;
 }
+
+#last-div {
+    margin-top: 30%; 
+    margin-bottom: 20px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
     
